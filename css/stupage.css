@@ -1,0 +1,154 @@
+#entmypoint,
+#entmypresent,
+#entmyactiv,
+#entmycomp
+{
+  display: none;
+}
+#entmypoint {
+  background-color: #e1a206bf;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+#entmypoint div {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 200px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#entmypresent .days {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 3%;
+  padding: 10px;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: #c187016d;
+  color: #964b01;
+}
+#entmypresent .days .daysspan {
+  margin: 0 10px 0 70px;
+}
+#entmypresent .days .stexit {
+  color: green;
+}
+#entmypresent .days .stntexit {
+  color: red;
+}
+
+#entmypoint .back, 
+#entmypresent .back,
+#entmyactiv .back,
+#entmycomp .back
+{
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  height: 100px;
+  text-align: right;
+  background-color: #fece61;
+}
+#entmypoint .back button,
+#entmypresent .back button,
+#entmyactiv .back button,
+#entmycomp .back button
+{
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+
+#entmyactiv,
+#entmycomp
+{
+  text-align: center;
+  padding: 0 0 50px;
+}
+
+#entmyactiv .father,
+#entmycomp .father
+{
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all .5s linear;
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+#entmyactiv .father .font, 
+#entmyactiv .father .back,
+#entmycomp .father .font, 
+#entmycomp .father .back
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#entmyactiv .father .back {
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+#entmycomp .father .back {
+  padding: 20px;
+  transform: rotateX(180deg);
+}
+#entmyactiv .father img,
+#entmycomp .father img
+{
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+#entmyactiv .father:hover {
+  transform: rotateY(180deg);
+}
+#entmycomp .father:hover {
+  transform: rotateX(180deg);
+}
+
+#entmycomp {
+  display: none;
+}
+
+
+
+#mybehav, #mysave {
+  position: relative;
+}
+#mybehavimg, #mysaveimg {
+  opacity: .5;                    /* edit */
+}
+#mybehav:after, #mysave:after {      /* edit */
+  color: white;
+  content: "قريبا";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  background-color: red;
+  position: relative;
+  top: -100px;
+}
