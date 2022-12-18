@@ -85,7 +85,7 @@ if (window.localStorage.id != undefined){
     bospan.classList.add('daysspan');
           
     fadiv.textContent = datepresent[k][0];
-    alert(stu_id +' '+ datepresent[k][1]);
+    // alert(stu_id +' '+ datepresent[k][1]);
     if(datepresent[k][1].indexOf(stu_id) == -1){
       bospan.classList.add('stexit');
       bospan.textContent = "حاضر";
