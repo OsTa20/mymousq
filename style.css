@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body {
+  text-align: right;
+  position: relative;
+  background-color: #fdbe62;
+  -webkit-prespective: 3px;
+  perspective: 3px;
+}
+header {
+  height: 110px;  
+  background-color: #a34a03;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+  transition: all .5s linear;
+}
+header img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  margin-right: 3px;
+  margin-left: 5px;
+  border-radius: 50%;
+  float: right;
+}
+header .loname {
+  width: 50px;
+  height: 50px;
+  margin: 20px 0 30px 50px;
+  float: left;
+  border-radius: 0;
+}
+header .mname {
+  display: inline-block;
+  color: gold;
+  line-height: 110px;
+  font-family: gulzar;    
+  font-size: 30px;
+}
+header #dialog {
+  position: absolute;
+  left: 5px;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  transform: rotate(90deg);
+  background: none;
+  color: white;
+}
+header p, header .featurs {
+  width: 90%;
+  margin: 3%;
+  padding: 8px;
+  background-color: white;
+  font-weight: bold;
+}
+header .featurshead {
+  color: blue;
+}
+header .featurs {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+header .henote {
+  color: red;
+}
+
+.form {
+  width: 88%;
+  margin: 3%;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: #a34a03;
+  text-align: center;
+  border-radius: 40px;
+  position: relative;
+  top: 0;
+  z-index: 0;
+  transition: all 2s linear;
+  /*display: none;               /* */
+}
+.form h3 {
+  color: gold;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;
+}
+.form label {
+  margin: 10px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form label span {
+  color: red;
+}
+.form .input, .form button {
+  margin: 10px;
+  margin-right: 5px;
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.form .fop {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+}
+.form .inpas {
+  margin-right: 30px;
+}
+.form button {
+  margin-top: 50px;
+  background-color: #ffa100;
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.studdata {
+  width: 88%;
+  margin: 3%;
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 70px;
+  background-color: #a34a03;
+  text-align: center;
+  border-radius: 40px;
+  position: relative;
+  transition: all 2s linear;
+  display: none;              /*  edit  */
+}
+.studdata #notiv {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.studdata .notiv::after {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: relative;
+  top: -20px;
+  left: 2px;
+}
+.studdata img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.studdata #stuname {
+  font-size: 30px;
+  color: white;
+}
+.studdata div {
+  width: 160px;
+  display: inline-block;
+  margin: 2px;
+  margin-bottom: 5px;
+  background-color: #fdbe62;
+  border-radius: 20px;
+  padding: 5px;
+}
+.studdata div p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: gulzar;
+  src: url("reem/gulzar.ttf");
+}
+
+/*
+#file {
+  display: none;
+}
+*/
