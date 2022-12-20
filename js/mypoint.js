@@ -1,7 +1,7 @@
 let studentpoint = [
     {
       'name' : 'أسامة',
-      'point' : 100
+      'point' : 9000
     },
     {
       'name' : 'حسن',
