@@ -60,7 +60,7 @@ newaccount.addEventListener('click', fnewaccount);
 
 let singout = document.getElementById('singout');
 function fsingout(){
-  var confirmvar = confirm("هل تريد تبديل الحساب أو  التسجيل بحسا آخر");
+  var confirmvar = confirm("هل أنت متأكد من تبديل الحساب");
   if(confirmvar == true){
     studdata.style.display = 'none';
     divform2.style.display = 'block';
