@@ -110,10 +110,12 @@
 #entmyactiv .father .back {
   padding: 20px;
   transform: rotateY(180deg);
+  border-radius: 20px;
 }
 #entmycomp .father .back {
   padding: 20px;
   transform: rotateX(180deg);
+  border-radius: 20px;
 }
 #entmyactiv .father img,
 #entmycomp .father img
