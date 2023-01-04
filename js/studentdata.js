@@ -15,7 +15,7 @@ let studentdata = [
         "name" : "عبد المجيد العبد الله",
         "password" : "345",
         "id" : 3,
-        "imgsrc" : "img/student/p3.jpg"
+        "imgsrc" : "https://t.me/al_hedaya_2001/60"
       },
       {
         "name" : "مالك تقوى",
