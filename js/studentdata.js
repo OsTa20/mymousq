@@ -3,7 +3,7 @@ let studentdata = [
         "name" : "أسامة تقوى",
         "password" : "123",
         "id" : 1,
-        "imgsrc" : "img/student/p1.png"
+        "imgsrc" : "https://drive.google.com/file/d/15eRIlANNGrB-wOX76WgHNKSBsIF2QqJf/view?usp=drivesdk"
       },
       {
         "name" : "حسن تقوى",
