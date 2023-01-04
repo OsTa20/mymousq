@@ -9,7 +9,7 @@ let studentdata = [
         "name" : "حسن تقوى",
         "password" : "234",
         "id" : 2,
-        "imgsrc" : "img/student/p2.jpg"
+        "imgsrc" : "https://photos.app.goo.gl/v8tUj7grGS2pu8jE6"
       },
       {
         "name" : "عبد المجيد العبد الله",
