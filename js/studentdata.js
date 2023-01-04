@@ -21,6 +21,7 @@ let studentdata = [
         "name" : "مالك تقوى",
         "password" : "456",
         "id" : 4,
-        "imgsrc" : "img/student/p4.jpg"
+        "imgsrc" : "https://m.facebook.com/story.php?story_fbid=1572648123168627&substory_index=1572648123168627&id=100077653467329&sfnsn=mo&mibextid=RUbZ1f"
       },
   ];
+// img/student/p4.jpg
