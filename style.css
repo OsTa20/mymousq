@@ -42,7 +42,9 @@ header .mname {
   font-size: 30px;
   float: right;  
   max-width: 50%; 
-  max-height: 110px;           
+  max-height: 110px; 
+  margin: 10px 0;    
+  box-sizing: border-box;      
 }
 header #dialog {
   position: absolute;
