@@ -108,7 +108,8 @@ header .henote {
 .form .input, .form button {
   margin: 10px;
   margin-right: 5px;
-  min-width: 170px;
+  width: 170px;
+  max-width: 90%;
   height: 50px;
   padding: 5px;
   padding-right: 17px;
