@@ -36,14 +36,13 @@ header .loname {
 header .mname {
   display: inline-block;
   color: gold;
-  word-wrap: break-word;
   font-family: gulzar;    
   font-size: 30px;
-  line-height: 30px;
+  line-height: 25px;
   float: right;  
   max-width: 50%; 
   max-height: 110px; 
-  margin: 20px 0;    
+  margin: 25px 0;    
   box-sizing: border-box;      
 }
 header #dialog {
