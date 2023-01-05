@@ -162,10 +162,14 @@ header .henote {
 .form2 span {
   font-size: 25px;
   font-weight: bold;
+  /*
   line-height: 80px;
+  */
   color: white;
   margin-right: 40px;
+  margin-top: 20px;
   max-width: 70%;
+  display: inline-block;
 }
 .form2 a {
   font-size: 25px;
