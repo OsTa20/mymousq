@@ -14,7 +14,8 @@ let hpoint;
 let stimg;
 function fdialog(){
   if(opcldi == false){
-    header.style = "height: 750px;";
+    header.style = 'overflow: auto;';
+    //"height: 750px;";
     dialog.innerHTML = '><';
     opcldi = true;
   }
