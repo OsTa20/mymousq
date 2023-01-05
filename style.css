@@ -36,7 +36,7 @@ header .loname {
 header .mname {
   display: inline-block;
   color: gold;
-  line-height: 50px;
+  line-height: 40px;
   word-wrap: break-word;
   font-family: gulzar;    
   font-size: 30px;
