@@ -15,13 +15,13 @@ let studentdata = [
         "name" : "عبد المجيد العبد الله",
         "password" : "345",
         "id" : 3,
-        "imgsrc" : "https://t.me/al_hedaya_2001/60"
+        "imgsrc" : "https://t.me/al_hedaya_2001/60.jpg"
       },
       {
         "name" : "مالك تقوى",
         "password" : "456",
         "id" : 4,
-        "imgsrc" : "https://m.facebook.com/story.php?story_fbid=1572648123168627&substory_index=1572648123168627&id=100077653467329&sfnsn=mo&mibextid=RUbZ1f"
+        "imgsrc" : "https://g.top4top.io/p_256198yf90.png"
       },
   ];
 // img/student/p4.jpg
