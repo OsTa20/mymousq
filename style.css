@@ -39,10 +39,11 @@ header .mname {
   word-wrap: break-word;
   font-family: gulzar;    
   font-size: 30px;
+  line-height: 30px
   float: right;  
   max-width: 50%; 
   max-height: 110px; 
-  margin: 10px 0;    
+  margin: 20px 0;    
   box-sizing: border-box;      
 }
 header #dialog {
