@@ -165,6 +165,7 @@ header .henote {
   line-height: 80px;
   color: white;
   margin-right: 40px;
+  max-width: 70%;
 }
 .form2 a {
   font-size: 25px;
