@@ -19,7 +19,7 @@ function fdialog(){
     opcldi = true;
   }
   else {
-    header.style = "height: 110px;overflow: hidden;";
+    header.style = "height: 100px;overflow: hidden;";
     dialog.innerHTML = '|||';
     opcldi = false;
   }
