@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   border: none;
+  overflow: hidden;
 }
 body {
   text-align: right;
@@ -53,7 +54,8 @@ header #dialog {
   transform: rotate(90deg);
   background: none;
   color: white;
-  clear: both;            
+  clear: both; 
+  overflow: hidden;     
 }
 header p, header .featurs {
   width: 90%;
