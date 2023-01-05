@@ -37,10 +37,12 @@ header .mname {
   display: inline-block;
   color: gold;
   line-height: 55px;
+  word-wrap: break-word;
   font-family: gulzar;    
   font-size: 30px;
   float: right;  
-  width: 50%;            
+  max-width: 50%; 
+  max-height: 110px;           
 }
 header #dialog {
   position: absolute;
