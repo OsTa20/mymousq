@@ -158,6 +158,7 @@ header .henote {
   margin-top: 40px;
   width: 55%;
   border: 2px solid #a34a03;
+  display: inline-block;
 }
 .form2 a {
   font-size: 25px;
