@@ -147,7 +147,6 @@ header .henote {
   border-radius: 30px;
   width: 90%;
   min-height: 90px;
-  position: relative;
   padding: 10px;
   margin: 5px auto;
 }
@@ -156,15 +155,10 @@ header .henote {
   height: 80px;
   border-radius: 50%;
   display: inline-block;
-  position: absolute;
-  right: 10px;
 }
 .form2 span {
   font-size: 20px;
   font-weight: bold;
-  /*
-  line-height: 80px;
-  */
   color: white;
   margin-right: 40px;
   padding: 5px;
