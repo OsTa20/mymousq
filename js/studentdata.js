@@ -1,6 +1,6 @@
 let studentdata = [
       {
-        "name" : "أسامة تقوى",
+        "name": "أسامة",
         "password" : "123",
         "id" : 1,
         "imgsrc" : "https://f.top4top.io/p_2561ytbqz1.png"
